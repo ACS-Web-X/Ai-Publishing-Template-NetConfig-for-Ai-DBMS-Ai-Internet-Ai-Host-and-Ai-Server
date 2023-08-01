@@ -1,0 +1,76 @@
+<xcomment>
+ACS-Web-X Ai-CLOUD COMPUTING.
+Ai-Publishing Template: The NetConfig Scripts for Ai-DBMS, Ai-Internet, Ai-Host, and Ai-Server.
+Web-X Publishing (x-Publishing).
+These Source Codes were written by Jawolusi Oluwaseun (@jawolusy) on (01/August/2023).
+License: EXCEPT on Premium Version, this xcomment tag MUST be included in every edited script.
+Contact me via idodisanddat[at]GMAIL[dot]com for detailed explanations of each line.
+<!xcomment>
+
+<x>
+//-Config Ai-Internet-//
+INITIALIZE: x-Internet; = "128+/-:13";
+ACTIVATE: Ai-Internet; = "x-D.I.S.H.";
+MODE: NET_Ai_Server; = "xy-Internet";
+
+//-Config Base_URL-//
+NM_TX_Base_URL_TYPE; = "MoNo_COMPLEX";
+NM_TX_BIG_DATA_TYPE; = "Contro-Num-AlphaNum";
+NM_Base_URL_PROTOCOL; = "+10*Nigeria";
+NM_Base_URL_SPAN; = "*1-64";
+TX_Base_URL_PROTOCOL; = "+13*NIGERIA-13*SWITZERLAND";
+TX_Base_URL_SPAN; = "*1-64*65-128";
+
+//-Config DRIVERS-//
+LOOP: ITERATION; = "2";
+SOURCE: "/ACS302/Base_URL/2";
+DECLARE: "GEO_DATA_CALL";
+DEFINE: "LEVEL1"; "LEVEL2";
+NM_Base_URL; = "+F1";
+TX_Base_URL; = "+F1-M13";
+
+//-Config HOST-//
+SELECT: x-Host; = "NET_Ai_Host";
+Ai-Host1; = "GH_Ai_Host";
+Ai-Host2; = "YT_Ai_Host";
+NET_Ai_Host; = "Ai-Host1"; 
+
+//-Config DBMS-//
+SELECT: x-DBMS; = "NET_Ai_DBMS";
+NET_Ai_DBMS; = "Ai-DBMS";
+SELECT:Ai_DBMS_TYPE; = "LOCATION";
+LOCATION1; = "PUBLIC";
+LOCATION2; = "PRIVATE"; 
+Ai_DBMS_TYPE; = "LOCATION1";
+
+//-Config SERVER-//
+SELECT: x-Server; = "NET_Ai_Server";
+Ai_Server1; = "x-Internet";
+Ai_Server2; = "y-Internet";
+NET_Ai_Server; = "xy-Internet";
+
+//-Config x-PUBLISH-//
+SELECT: x-PUBLISH_TYPE; = "LOCATION";
+LOCATION1; = "INTERNAL_x-PUBLISH";
+LOCATION2; = "EXTERNAL_x-PUBLISH";
+x-PUBLISH_TYPE; = "LOCATION1";
+
+//-Config CONTENT-//
+AUTHOR_NAME; = "<OUTPUT TYPE = "UnX"> Jawolusi Oluwaseun </OUTPUT>";
+CONTENT_TITLE; = "<OUTPUT TYPE = "UnX"> A 20-minute Climate Action Conference 
+                 Presentation Video on how to Combat Global Warming</OUTPUT>";
+GLOBAL_SERIAL_NUMBER; = "GIFDASNUM0000081";
+PUBLICATION_DATE; = "<OUTPUT TYPE ="UnX"> 6th August, 2020 </OUTPUT>";
+EVENT_VENUE; = "*61*101*100*6/*64*l13*m13*d8";
+AUTHOR_PROFILE_PICTURE; = "O14*l14*62*111*congo*b8*nicaragua"/"*romania*f1*bulgaria
+                          *101*a7*110*singapore*f8"/"*laos*e8*101*p14";
+AUTHOR_VERIFIED_SOCIAL_MEDIA_ID; = "*g8*f1*l14*l13*a7*n14*p14*f8"; 
+AUTHOR_x-TOKK_ID; = "##########";
+AUTHOR_PHONE_NUMBER; = "##########"; 
+AUTHOR_EMAIL_ADDRESS; = "##########";
+TEXT1: CONTENT; = "*111*e8*62*p14/*k13*6*102*58*i13/*108*f1*112*/m14*62*i13*111*n14*6*a7*56*j14/
+                   *102*i13*58*p14*b8*100*o14*58*a8/*57*n14*104*f8*100*d8/*111*e8*58/*F8*H1*P14*A8*B8 
+                   <NUMBUP>*D3*D3</NUMBUP>","/*101*i13*60*f1*100*f8*105*b8*57/*g1*106/*O14*E8*B8*f8/
+                   ","*E8*101*m13*60/*H8*l13*100*d8/*101*100/<TX> 6th August, 2020 </TX>";
+VIDEO1: LENGTH; = "20_MINUTES"; CONTENT; = "*j14*101*n14*111*110"."*g1*58"/"*11^*C7*e6*C8*H7*H1*G1*C8*b8*g8*h1";
+ </x>
